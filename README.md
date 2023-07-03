@@ -1,16 +1,26 @@
-Realtime Avatar Streaming Demo
-This is a simple demo showcasing the use of HeyGen's RealtimeAvatar API to stream a real-time avatar. The application includes HTML, CSS, and JavaScript files.
+# Realtime Avatar Streaming Demo
 
-Pre-Requisites
-You need an API key for HeyGen's RealtimeAvatar API.
+A straightforward demo demonstrating the use of HeyGen's RealtimeAvatar API to stream a real-time avatar.
 
-Setup
-Clone the repository.
-Replace 'YourApiKey' with your API key in the JavaScript file:
-javascript
-Copy code
-const apiKey = 'YourApiKey';
-Running the Demo
-Just open the HTML file in a web browser. Follow the on-screen instructions to create a session, start streaming the avatar, send tasks to the avatar, and close the session.
+## Pre-Requisites
 
-In case of issues, please contact our support team.
+- API key for HeyGen's RealtimeAvatar API.
+
+## Setup
+
+1. Clone the repository.
+2. Open the JavaScript file and replace `'YourApiKey'` with your API key:
+
+    ```javascript
+    const apiKey = 'YourApiKey';
+    ```
+
+## Running the Demo
+
+1. Open the HTML file in a web browser.
+2. Click "New" to create a new session.
+3. Click "Start" to start the avatar stream.
+4. Send tasks to the avatar using the provided input field and "Send Task" button.
+5. Close the session using the "Close Connection" button.
+
+Should you encounter any issues, please contact our support team.
