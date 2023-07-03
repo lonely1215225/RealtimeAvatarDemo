@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#taskInput {
+    font-size: 16px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+
+#status {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 100px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#mediaElement {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 400px;
+}
