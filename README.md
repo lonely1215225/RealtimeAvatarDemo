@@ -1,7 +1,5 @@
 # Realtime Avatar Streaming Demo
 
-A straightforward demo demonstrating the use of HeyGen's RealtimeAvatar API to stream a real-time avatar.
-
 ## Pre-Requisites
 
 - API key for HeyGen's  API.
